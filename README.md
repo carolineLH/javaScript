@@ -1,2 +1,2 @@
 # javaScript
-javaScript高级程序设计读书笔记
+《javaScript高级程序设计》读书笔记
