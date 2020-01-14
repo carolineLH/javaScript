@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [标签的位置](#%E6%A0%87%E7%AD%BE%E7%9A%84%E4%BD%8D%E7%BD%AE)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 标签的位置
 
 习惯上会把JavaScript引用放在head中间，这样是为了统一外部引用的文件都放在同一个地方。

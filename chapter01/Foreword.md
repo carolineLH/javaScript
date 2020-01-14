@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [第1章JavaScript简介](#%E7%AC%AC1%E7%AB%A0javascript%E7%AE%80%E4%BB%8B)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 第1章JavaScript简介
 
 JavaScript诞生于1995年，至今已有二十多年。

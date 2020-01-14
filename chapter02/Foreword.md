@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [第2章 在HTML中使用JavaScript](#%E7%AC%AC2%E7%AB%A0-%E5%9C%A8html%E4%B8%AD%E4%BD%BF%E7%94%A8javascript)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 第2章 在HTML中使用JavaScript
 
 只要一提到把javaScript放到网页中，就不得不设计Web的核心语言———HTML。

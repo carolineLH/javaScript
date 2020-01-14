@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [noscript元素](#noscript%E5%85%83%E7%B4%A0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # noscript元素
 
 在下列情况下，包含在<noscript>元素中的内容才会显示出来：

@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [浏览器对象模型（BOM）](#%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8Bbom)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 浏览器对象模型（BOM）
 
 开发人员使用BOM可以控制浏览器显示的页面以外的部分。
