@@ -63,3 +63,64 @@ alert(isNaN('10'));    //false(可以被转换成数值10)
 alert(isNaN('blue'));    //true(不能转换成数值)
 alert(isNaN(true));    //false(可以被转换成数值1)
 ```
+
+## 数值转换
+
+有3个函数可以把非数值转换为数值：Number()、parseInt()和parseFloat()
+
+Number()函数转换规则：
+* true和false将分别被转换为1和0
+* 如果是数字值，只是简单地传入和返回
+* 如果是null值，返回0
+* 如果是undefined，返回NaN
+* 如果是字符串，遵循下列规则：
+  * 如果字符串中只包含数字（包括前面带正号或负号的情况），则将其转换为十进制数值，即"1"会变成1，"123"会变成123，而"011"会变成11（忽略前导零）
+  * 如果字符串中包含游侠的浮点格式，如"1.1"，则将其转换为对应的浮点数值（忽略前导零）
+  * 如果字符串中包含有效的十六进制格式，例如"0xf"，则将其转换为相同大小的十进制整数值
+  * 如果字符串是空的（不包含任何字符），则将其转换为0
+  * 如果字符串中包含除上述格式之外的字符，则将其转换成NaN
+
+Number()函数使用举例：
+```js
+var num1 = Number("Hello world!"); //NaN
+var num2 = Number(""); //0
+var num3 = Number("000011"); //11
+var num4 = Number(true); //1
+```
+
+parseInt()函数转换规则：
+* 在转换字符串时，会忽略字符串前面的空格，直至找到第一个非空格字符
+* 如果是空字符串会返回NaN
+* 如果第一个字符是数字字符，会继续解析第二个字符，直到解析完所有后续字符或者遇到了一个非数字字符
+* 如果字符串中的第一个字符是数字字符，parseInt()也能识别出各种整数格式
+
+
+parseInt()函数举例：
+```js
+var num1 = parseInt("1234blue"); // 1234
+var num2 = parseInt(""); // NaN
+var num3 = parseInt("0xA"); // 10（十六进制数）
+var num4 = parseInt(22.5); // 22
+var num5 = parseInt("070"); // 在ES3下等于56（八进制数）在ES5下等于70（十进制）
+var num6 = parseInt("70"); // 70（十进制数）
+var num7 = parseInt("0xf"); // 15（十六进制数）
+var num8 = parseInt(".12");//NaN
+```
+
+###### 为了避免错误的解析，建议parseInt()无论在什么情况下都明确指定基数。
+
+
+parseFloat()转换与parseInt()的区别是:
+* parseFloat()始终都会忽略前导的零。
+* parseFloat()只解析十进制，所以没有用第二个参数指定基数的用法。
+
+
+parseFloat()函数使用举例：
+```js
+var num1 = parseFloat("1234blue"); //1234 （整数）
+var num2 = parseFloat("0xA"); //0
+var num3 = parseFloat("22.5"); //22.5
+var num4 = parseFloat("22.34.5"); //22.34
+var num5 = parseFloat("0908.5"); //908.5
+var num6 = parseFloat("3.125e7"); //31250000
+```
