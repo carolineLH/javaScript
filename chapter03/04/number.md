@@ -17,7 +17,7 @@ var hexNum2 = 0x1f; // 十六进制的31
 在进行算数计算时，所有以八进制和十六进制表示的数值最终都将被转换成十进制数值。
 
 
-## 浮点数值
+#### 浮点数值
 
 所谓浮点数值，就是该数值中必须包含一个小数点，并且小数点后面必须至少有一位数字。
 
@@ -31,7 +31,7 @@ var sum=0.1+0.2
 sum==0.3 //false sum=0.30000000000000004
 ```
 
-## 数值范围
+#### 数值范围
 
 最小数值：Number.MIN_VALUE，5e-324
 
@@ -45,7 +45,7 @@ var result = Number.MAX_VALUE + Number.MAX_VALUE;
 alert(isFinite(result)); //false
 ```
 
-## NaN
+#### NaN
 
 NaN，即非数值（Not a Number）是一个特殊的数值。用于表示一个本来要返回数值的操作数为返回数值的情况。比如任何数值除以0都会返回NaN。
 
@@ -64,7 +64,7 @@ alert(isNaN('blue'));    //true(不能转换成数值)
 alert(isNaN(true));    //false(可以被转换成数值1)
 ```
 
-## 数值转换
+#### 数值转换
 
 有3个函数可以把非数值转换为数值：Number()、parseInt()和parseFloat()
 
